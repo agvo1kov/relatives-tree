@@ -19,7 +19,6 @@ class App extends React.Component {
                 <ForceGraph2D
                     ref={el => this.fg = el}
                     graphData={data}
-                    nodeRelSize={3}
                     d3Force={("link.distance", 100)}
                     nodeAutoColorBy="group"
                     nodeThreeObject={node => {
